@@ -10,7 +10,7 @@ app.use("/api/v1", mainRouter);
 
 // 404 Handler
 app.use((req, res) => {
-    res.status(404).json({ error: "Route not found" });
+    res.status(404).json({ error: "Route not found - 'app.js file'" });
 });
 
 export default app;
